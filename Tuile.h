@@ -16,7 +16,8 @@ enum type {
 class Tuile {
     int PosX;
     int PosY;
-    type Types[4]; //nord sud est ouest types.
+    bool abbaye;
+    type Types[4]; //nord sud est ouest types;
 };
 
 
