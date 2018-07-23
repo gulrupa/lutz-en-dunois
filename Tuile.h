@@ -16,9 +16,10 @@ enum type {
 class Tuile {
     int PosX;
     int PosY;
-    bool abbaye;
+    bool abbaye; //by julien voisin
     type Types[4]; //nord sud est ouest types;
 };
+
 
 
 #endif //LUTZ_EN_DUNOIS_TUILE_H
