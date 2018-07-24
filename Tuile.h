@@ -14,10 +14,18 @@ enum type {
 
 
 class Tuile {
+public:
+    Tuile(int PosX, int PosY, bool abbaye, type Nord, type Sud, type Est, type Ouest);
+    void print();
+
+private:
     int PosX;
     int PosY;
     bool abbaye; //by julien voisin
-    type Types[4]; //nord sud est ouest types;
+    type Nord;
+    type Sud;
+    type Est;
+    type Ouest;
 };
 
 
