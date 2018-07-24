@@ -5,10 +5,11 @@
 #include "Tuile.h"
 #include <iostream>
 
-Tuile::Tuile(int PosX, int PosY, bool abbaye, type Nord, type Sud, type Est, type Ouest) {
+Tuile::Tuile(int PosX, int PosY, bool abbaye, bool blazon, type Nord, type Sud, type Est, type Ouest) {
     this->PosX = PosX;
     this->PosY = PosY;
     this->abbaye = abbaye;
+    this->blazon = blazon;
     this->Nord = Nord;
     this->Sud = Sud;
     this->Est = Est;

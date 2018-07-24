@@ -15,13 +15,14 @@ enum type {
 
 class Tuile {
 public:
-    Tuile(int PosX, int PosY, bool abbaye, type Nord, type Sud, type Est, type Ouest);
+    Tuile(int PosX, int PosY, bool abbaye, bool blazon, type Nord, type Sud, type Est, type Ouest);
     void print();
 
 private:
     int PosX;
     int PosY;
     bool abbaye; //by julien voisin
+    bool blazon;
     type Nord;
     type Sud;
     type Est;
