@@ -12,7 +12,7 @@ public :
     void AffichageGrille;
     bool PoseTuile(int x,int y);
 private :
-    int GrilleDeJeu[140][140]; //on stock le numéro de la tuile à la case correspondant à sa position
+    Tuile GrilleDeJeu[140][140];
 };
 
 
