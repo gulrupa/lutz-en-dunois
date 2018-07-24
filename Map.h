@@ -2,6 +2,8 @@
 // Created by Gulrupa on 23/07/2018.
 //
 
+#include "Tuile.h"
+
 #ifndef LUTZ_EN_DUNOIS_MAP_H
 #define LUTZ_EN_DUNOIS_MAP_H
 
