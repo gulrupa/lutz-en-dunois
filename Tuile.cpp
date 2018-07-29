@@ -4,6 +4,7 @@
 
 #include "Tuile.h"
 #include <iostream>
+#include <vector>
 
 Tuile::Tuile(int PosX, int PosY, bool abbaye, bool blazon, type Nord, type Sud, type Est, type Ouest) {
     this->PosX = PosX;

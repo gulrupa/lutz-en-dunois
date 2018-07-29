@@ -27,7 +27,9 @@ private:
     type Sud;
     type Est;
     type Ouest;
+
 };
+
 
 
 
